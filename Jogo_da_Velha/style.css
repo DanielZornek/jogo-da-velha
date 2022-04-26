@@ -1,0 +1,56 @@
+body{
+    font: normal 10pt Arial;
+    text-align: center;
+    background-color: rgb(92, 53, 53);
+}
+
+#titulo{
+    color:aliceblue
+}
+.quadrado{
+
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: aquamarine;
+    display: inline-block;
+    padding: 40px;
+    border-radius: 15px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    transition-duration: 0.6s;
+
+}
+
+.quadrado:hover{
+
+    background-color: rgb(45, 77, 77);
+    color:azure
+}
+
+.jogador, .vencedor{
+
+        font-size: 25px;
+        margin: 5px;
+        color:azure
+
+}
+
+button{
+
+    margin: 5px;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(161, 93, 196);
+    transition-duration: 0.6s;
+    cursor: pointer;
+    font:normal 25px Arial;
+}
+
+button:hover{
+
+    background-color: rgb(58, 34, 70);
+    color: aliceblue;
+}
+
